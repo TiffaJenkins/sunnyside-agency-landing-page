@@ -1,0 +1,268 @@
+/*---------------------------------Backgrounds----------------------------------*/
+/*---------------------------------+ mobile-------------------------------------*/
+.header-background {
+    background-image: url("images/desktop/image-header.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+@media(max-width: 576px) {
+    .header-background {
+        background-image: url("images/mobile/image-header.jpg");
+        background-position: center;
+        background-size: cover;
+        min-height: 60vh;
+    }
+}
+/*--dropdown menu background + font colours + toggler icon--*/
+@media(max-width: 768px) {
+    .collapse, .nav-bar-collapse {
+        background-color: white;
+        text-align: center;
+    }
+} 
+.top-nav-link, .nav-link, .active {
+    color: white;
+} 
+@media(max-width: 768px) {
+    .top-nav-link, .nav-link, .active {
+        color: hsl(200, 3%, 42%);
+    }
+}  
+.navbar-toggler-icon {
+    background-image: url("images/icon-hamburger.svg");
+}
+/*--dropdown menu button colour--*/
+@media(max-width: 768px) {
+    .btn {
+        background-color: rgb(255, 230, 0);
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+}
+
+/*--section 1--*/
+.info-col-1 {
+    background-color: rgba(235, 208, 199, 0.151);
+}
+/*--section 2--*/
+.cherry-col {
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+@media(max-width: 576px) {
+    .cherry-col {
+        background-image: url("images/mobile/image-graphic-design.jpg");
+        background-position: center;
+        background-size: cover;
+        min-height: 70vh;
+        background-repeat: no-repeat;
+    }
+}
+.orange-col {
+    background-image: url("images/desktop/image-photography.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+@media(max-width: 576px) {
+    .orange-col {
+        background-image: url("images/mobile/image-photography.jpg");
+        background-position: center;
+        background-size: cover;
+        min-height: 70vh;
+        background-repeat: no-repeat;
+    }
+}
+/*--section 3--*/
+.client-test {
+    background-color: rgba(235, 208, 199, 0.151);
+}
+/*--last section--*/
+.last-section {
+    background-color: rgb(157, 230, 248);
+}
+
+
+/*---------------------------------typography------------------------------------*/
+/*-----------------------------------fonts---------------------------------------*/
+/*--Navbar--*/
+.navbar-brand {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+.nav-contact {
+    font-family: 'Fraunces', sans-serif;
+}
+/*--1st + 2nd section--*/
+.header-h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    font-stretch: extra-expanded;
+    letter-spacing: 8px;
+}
+@media(max-width: 400px) {
+    .header-h1 {
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+        letter-spacing: 5px;
+    }
+}
+.main-h2 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+}
+@media(max-width: 576px) {
+    .main-h2 {
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+    }
+}
+.main-p {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(200, 3%, 42%);
+    font-size: 15px;
+}
+@media(max-width: 576px) {
+    .main-p {
+        font-family: 'Barlow', sans-serif;
+        color: hsl(200, 3%, 42%);
+        font-size: 13px;
+    }
+}
+.learn-more-link {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-bottom: solid 5px rgba(255, 68, 0, 0.306);
+}
+/*--3rd section--*/
+.left-main-h3 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: hsl(167, 40%, 24%);
+}
+@media(max-width: 576px) {
+    .left-main-h3 {
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+        color: hsl(167, 40%, 24%);
+    }
+}
+.left-main-p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    color: hsl(167, 20%, 31%);
+}  
+@media(max-width: 576px) {
+    .left-main-p {
+        font-family: 'Barlow', sans-serif;
+        font-size: 13px;
+        color: hsl(167, 20%, 31%);
+    }
+}  
+.right-main-h3 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    color: hsl(198, 62%, 26%);
+}
+@media(max-width: 576px) {
+    .right-main-h3 {
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+        color: hsl(198, 62%, 26%);
+    }
+}
+.right-main-p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    color: hsl(198, 62%, 26%);
+}
+@media(max-width: 576px) {
+    .right-main-p {
+        font-family: 'Barlow', sans-serif;
+        font-size: 13px;
+        color: hsl(198, 62%, 26%);
+    }    
+}
+/*--4th section--*/
+.main-h4 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 4px;
+    color: hsla(201, 8%, 59%, 0.877);
+}
+.main-h5 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+.client-p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    color:hsl(197, 4%, 62%)
+}
+/*--final section--*/
+.end-brand {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    font-size: 27px;
+    letter-spacing: 0.5px;
+    color: rgba(17, 66, 43, 0.765);
+}
+.end-link {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    color: rgba(55, 128, 92, 0.765);
+}
+
+/*-------------------------------client image sizes--------------------------------*/
+/*---------------------------------------------------------------------------------*/
+.client-img {
+    height: 60px;
+    width: 60px;
+}
+/*---------------------------------Logo sizes--------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+.top-arrow {
+    height: 120px;
+    width: 30px;
+}
+@media(max-width: 576px) {
+    .top-arrow {
+        height: 120px;
+        width: 30px;
+    }
+}
+.final-logo {
+    height: 16px;
+    width: 16px;
+}
+
+/*-----------------------------------br cancel-------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+@media(max-width: 1128px) {
+    br {
+        display: none;
+    }
+}
